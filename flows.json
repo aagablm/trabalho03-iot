@@ -1,0 +1,73 @@
+[
+    {
+        "id": "3edf7f88e7fa2a7e",
+        "type": "ui_chart",
+        "z": "96cdbc25b736944e",
+        "name": "Histórico ",
+        "group": "18d807b37b34c5da",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Nível",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "sem dados",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 840,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18d807b37b34c5da",
+        "type": "ui_group",
+        "name": "Histórico",
+        "tab": "ab1f5ee570be249d",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab1f5ee570be249d",
+        "type": "ui_tab",
+        "name": "C13-ana-laisa",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "342d8530770b624c",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
